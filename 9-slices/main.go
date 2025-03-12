@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"slices"
 )
 
 func main() {
@@ -23,8 +22,13 @@ func main() {
 
 	// fmt.Println(num2, len(nums), cap(nums))
 
-	nums1 := []int{1,2,3}
-	nums2 := []int {1,2,3}
+	// nums1 := []int{1,2,3}
+	// nums2 := []int {1,2,3}
 
-	fmt.Println(slices.Equal(nums1, nums2))
+	// fmt.Println(slices.Equal(nums1, nums2))
+
+	// var nums = make([]int, 0, 5)
+	// nums = append(nums, 1, 2, 3, 4, 5,6)
+
+	// fmt.Println(cap(nums))
 }
